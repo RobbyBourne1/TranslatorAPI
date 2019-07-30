@@ -14,12 +14,14 @@ namespace TranslatorAPI.Controllers
         {
             return View();
         }
-
-        public IActionResult Input()
+        [HttpPost]
+        public void Input(string translated)
         {
-            ViewData["Message"] = "Your application description page.";
+            var inputText = Request.Form["Input"];
 
-            return View();
+            Console.WriteLine(inputText);
+
+            RedirectToAction("Index", "HomeController");
         }
     }
 }

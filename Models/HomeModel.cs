@@ -1,4 +1,5 @@
 using System;
+using Microsoft.AspNetCore.Mvc;
 
 namespace TranslatorAPI.Models
 {
@@ -9,6 +10,7 @@ namespace TranslatorAPI.Models
 
     public class Contents
     {
+        [BindProperty]
         public string translated { get; set; }
         public string text { get; set; }
         public string translation { get; set; }
