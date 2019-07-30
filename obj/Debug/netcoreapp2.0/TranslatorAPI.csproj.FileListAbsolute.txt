@@ -1,0 +1,10 @@
+/Users/robbybourne/Projects/TranslatorAPI/bin/Debug/netcoreapp2.0/TranslatorAPI.deps.json
+/Users/robbybourne/Projects/TranslatorAPI/bin/Debug/netcoreapp2.0/TranslatorAPI.runtimeconfig.json
+/Users/robbybourne/Projects/TranslatorAPI/bin/Debug/netcoreapp2.0/TranslatorAPI.runtimeconfig.dev.json
+/Users/robbybourne/Projects/TranslatorAPI/bin/Debug/netcoreapp2.0/TranslatorAPI.dll
+/Users/robbybourne/Projects/TranslatorAPI/bin/Debug/netcoreapp2.0/TranslatorAPI.pdb
+/Users/robbybourne/Projects/TranslatorAPI/obj/Debug/netcoreapp2.0/TranslatorAPI.csproj.CoreCompileInputs.cache
+/Users/robbybourne/Projects/TranslatorAPI/obj/Debug/netcoreapp2.0/TranslatorAPI.AssemblyInfoInputs.cache
+/Users/robbybourne/Projects/TranslatorAPI/obj/Debug/netcoreapp2.0/TranslatorAPI.AssemblyInfo.cs
+/Users/robbybourne/Projects/TranslatorAPI/obj/Debug/netcoreapp2.0/TranslatorAPI.dll
+/Users/robbybourne/Projects/TranslatorAPI/obj/Debug/netcoreapp2.0/TranslatorAPI.pdb

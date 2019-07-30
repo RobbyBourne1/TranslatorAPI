@@ -1,0 +1,30 @@
+﻿@model TranslatorAPI.Models.Contents
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h2>Translate Phrase</h2>
+<br>
+<h4>Translate any phrase below</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Input">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="translated" class="control-label">Translate text</label>
+                <input asp-for="translated" class="form-control" />
+                <span asp-validation-for="translated" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Input" class="btn btn-default" />
+            </div>
+        </form>
+        
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
